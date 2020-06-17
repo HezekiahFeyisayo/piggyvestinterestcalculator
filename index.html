@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PiggyVest Interest Calculator</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="icon" href="images/favicon-32x32.webp">
+</head>
+<body>
+    <div id="container">
+        <div class="center">
+            <div class="background-images">
+                <div class="field">
+                    <img src="images/top-left.png" alt="background-image">
+                </div>
+                <div class="field">
+                    <img src="images/top-right.png" alt="background-image">
+                </div>
+                <div class="field">
+                    <img src="images/bottom-left.png" alt="background-image">
+                </div>
+                <div class="field">
+                    <img src="images/bottom-right.png" alt="background-image">
+                </div>
+            </div>
+            <div class="home-logo">
+                <img src="images/piggyvest-logo.svg" alt="Logo">
+            </div>
+            <div class="form">
+                <form action="#" id="input-form">
+                    <div class="form-heading">
+                        <h1>INTEREST CALCULATOR</h1>
+                    </div>
+                    <div class="form-field-area">
+                        <div class="field">
+                            <label for="amount" class="gray-text">Desired Amount</label> <br>
+                            <input type="number" placeholder="Enter Your Desired Amount" id="amount" required> 
+                        </div>
+                        <div class="field">
+                            <div class="selection">
+                                <label for="package" class="gray-text">Package</label> <br>
+                                <select id="package" name="package" form="input-form">
+                                    <option selected>Click To Select</option>
+                                    <option>Flex Dollar</option>
+                                    <option>Flex Naira</option>
+                                </select> 
+                            </div>
+                        </div><div class="field">
+                            <div class="selection">
+                                <label for="duration" class="gray-text">Duration</label> <br>
+                                <select id="duration" name="duration" form="input-form">
+                                    <option selected>Click To Select</option>
+                                    <option>1 Year</option>
+                                    <option>2 Years</option>
+                                    <option>3 Years</option>
+                                </select> 
+                            </div>
+                        </div>
+                        <button type="submit">CALCULATE</button>
+                    </div>  
+                    <div class="form-heading">
+                        <h1>RESULT</h1>
+                    </div>
+                </form>
+             
+            </div>
+         </div>
+     </div>
+</body>
+</html>
